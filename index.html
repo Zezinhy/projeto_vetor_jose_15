@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário Vetores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Usando vetores</h1>
+
+  <form id="formulario">
+
+    <label for="valor">Digite uma palavra:</label>
+    <input type="text" id="valor"><br>
+    <button type="button" id="add-btn" onclick="adicionarValor()">Adicionar Palavra</button>
+    
+    <table id="tabelaValores">
+      <thead>
+        <tr>
+          <th>Palavras</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <button type="button" id="longest-word-btn" onclick="mostrarPalavraMaisLonga()">Mostrar Palavra Mais Longa</button>
+
+    <table id="tabelaPalavraMaisLonga">
+      <thead>
+        <tr>
+          <th>Palavra Mais Longa</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
